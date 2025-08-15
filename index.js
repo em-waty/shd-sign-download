@@ -106,4 +106,4 @@ export async function main(params) {
 
   const { url, expiresIn, expiresAt } = sigV2GetUrl({ key: cleanKey, ttlSec });
   return { statusCode: 200, headers: CORS, body: JSON.stringify({ url, expiresIn, expiresAt, key: cleanKey }) };
-}xxx
+}
